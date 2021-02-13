@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "152798777794",
+    "project_id": "weekendhack-e2db3",
+    "storage_bucket": "weekendhack-e2db3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152798777794:android:a6b10e5bda34fb0b25865b",
+        "android_client_info": {
+          "package_name": "com.example.hack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152798777794-ad33k1rh4i0ddjmbd34jfd3qjgpndaag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4nRe3GmjqxFjgZ8XhoHQW9nFSs4Kbe8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152798777794-ad33k1rh4i0ddjmbd34jfd3qjgpndaag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
