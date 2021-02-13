@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hack/screens/friends_screen.dart';
 import 'package:hack/screens/notifications_screen.dart';
+import 'package:hack/screens/teamup.dart';
 import 'package:hack/screens/welcome_screen.dart';
 import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
 import 'package:hack/widgets/Profile.dart';
@@ -29,7 +30,6 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
   }
 
-  User loggedInUser;
   void getcurrentUser() async {
     try {
       final user = await _auth.currentUser;
@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
       case 0:
         return Notify();
       case 1:
-        return Friends();
+        return TeamUP();
     }
   }
 

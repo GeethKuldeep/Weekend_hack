@@ -37,6 +37,7 @@ dependencies:
   firebase_storage:
   flutter_local_notifications: ^4.0.1
   flutter_native_timezone: ^1.0.4
+  uuid: ^2.2.2
 
 
 dev_dependencies:
