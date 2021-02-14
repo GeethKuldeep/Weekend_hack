@@ -17,7 +17,7 @@ A group of friends can join a team using the team code and the app can show the 
 
 The app is implemented using flutter.
 
-### FireBase
+### Firebase
 
 Used as a backend to run the python scripts. It will get the screenshot, processes it and send the final timetable back to the app.
 
@@ -39,6 +39,10 @@ VIT Email id, Screenshot of your timetable.
 ## Challanges
 
 The OCR was trained on a different font, letters on the screenshot arn't exactly black making the extraction inaccurate. Thresholding, Canny edge detection, Image slicing arn't giving good results.
+
+## Future Scope
+
+Google Map integration: This functionality will let users see their team in realtime on google maps, and the app will suggest activities based on length of common free slots by taking travelling time, and staying time using google maps API.
 
 ## Authors
 * [**Geeth**](https://github.com/GeethKuldeep) 
