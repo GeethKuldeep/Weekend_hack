@@ -1,16 +1,47 @@
-# hack
+# VIT FLEX
 
-A new Flutter application.
+This application takes your VIT timetable screenshot and then get your exact timetable. It will notify you at a set time before the class so that you can never forget to attend it.
+A group of friends can join a team using the team code and the app can show the timings when everyone in that group is free so that they can hangout and do various stuff.
 
-## Getting Started
+### Unique Selling Points
 
-This project is a starting point for a Flutter application.
+* Never miss any class or exam due to lack of attendance.
+* Get sweet time to hangout with friends.
+* Organise event, meeting in a fraction of a second.
 
-A few resources to get you started if this is your first Flutter project:
+## Implementation: 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Technology Stack  
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Flutter
+
+The app is implemented using flutter.
+
+### FireBase
+
+Used as a backend to run the python scripts. It will get the screenshot, processes it and send the final timetable back to the app.
+
+### OpenCV
+
+Preprocessing - blurring, edge detection, contrast boosting, color extraction.
+Pytesseract OCR library for character recognition.
+
+## Video
+
+[Video](https://drive.google.com/file/d/1zt7jRDiPezX4ivarLWQPAGrw1pmHjbAT/view?usp=sharing)
+
+
+## Prerequisites
+
+VIT Email id, Screenshot of your timetable.
+
+
+## Challanges
+
+The OCR was trained on a different font, letters on the screenshot arn't exactly black making the extraction inaccurate. Thresholding, Canny edge detection, Image slicing arn't giving good results.
+
+## Authors
+* [**Geeth**](https://github.com/GeethKuldeep) 
+* [**Kanit**](https://github.com/kanitmann)
+* [**Gauri**](https://github.com/kodekandy)
+* [**Vamsi**](https://github.com/sairathnavamsi) 
